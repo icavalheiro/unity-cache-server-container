@@ -1,0 +1,7 @@
+cache-server:
+  build: .
+  ports:
+    - "8126:8126"
+  volumes:
+    - /srv/cache-server
+  restart: always
