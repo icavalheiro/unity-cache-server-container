@@ -5,4 +5,4 @@ cache-server:
   volumes:
     - /srv/cache-server
   restart: always
-  name: unity-cache-server
+  container_name: unity-cache-server
